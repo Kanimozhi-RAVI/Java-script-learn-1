@@ -15,7 +15,7 @@
     <p id="man"></p>
     <p id="human"></p>
     <p id="person1"></p>
-    <p id="person2"></p>
+    <p id="abcd"></p>
     <script>
         alert("this is new");
         alert("this is new");
@@ -25,6 +25,26 @@
        
         document.getElementById("demo").innerHTML = "Value of x is: " + x;
         </script>
+        <button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+        <button onclick="this.innerHTML = Date()">The time is?</button>
+        <button onclick="displayDate()">this date</button>
+        <p id="date"></p>
+        <script>
+            function displayDate() {
+              document.getElementById("date").innerHTML = Date();
+            }
+
+
+            let abcd = `He's often called "Johnny"`;
+            document.getElementById("abcd").innerHTML = abcd;
+
+             const person = {
+             firstName: "John",
+             lastName : "Doe",
+             age      :  50
+            };
+
+            </script>
         
 </body>
 </html>
