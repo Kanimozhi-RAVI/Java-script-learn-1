@@ -133,7 +133,6 @@ console.log(typeof(person));
 const cars = ["Saab", "Volvo", "BMW"];
 console.log(typeof(saab));
 }
-
 // Date object:
 {
 const date = new Date("2022-03-25");
@@ -145,7 +144,6 @@ return a*b;
 }
 let Number = myFunction(4, 3);
 document.getElementById("num").innerHTML = Number;
-
 function toCelsius(f) {
     return (5/9) * (f-32);
   }
